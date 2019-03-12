@@ -8,7 +8,7 @@ header,
 footer {
     width: 100%;
 
-    background: url("/assets/imgs/background.png") no-repeat;
+    background: url("../assets/imgs/background.png") no-repeat;
     background-size: 100%;
 }
 
@@ -101,7 +101,7 @@ footer {
     width: 450px;
     height: 300px;
 
-    background: url("/assets/imgs/DSC_0157-1.png");   
+    background: url("../assets/imgs/DSC_0157-1.png");   
     background-position: left;
     background-size: 450px auto;
     background-repeat: no-repeat;
