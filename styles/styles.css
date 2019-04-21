@@ -1,0 +1,267 @@
+body, 
+html {
+    font-size: 1rem;
+    font-family: 'Roboto Slab', 'Times New Roman',  serif;    
+}
+
+header, 
+footer {
+    width: 100%;
+
+    background: url("../assets/imgs/background.png") no-repeat;
+    background-size: 100%;
+}
+
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+
+    height: 63px;
+    background-position-y: 50%;
+
+    font-size: 1rem;
+    font-family: 'Roboto Mono','Courier New',  monospace;
+}
+
+.personal-info-container {
+    position: relative;
+    top: 40px;
+
+    width: 1024px;
+    margin: 0 auto;
+    padding: 25px;
+    /*height: 200px;*/
+
+    background-color: rgba(167, 216, 101, 1);
+    border-radius: 8px;   
+}
+
+.personal-info {
+    display: inline-block;
+
+    vertical-align: top;
+    line-height: 2.5;
+}
+
+.personal-info h1 { 
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.personal-info p {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+ a {
+    text-decoration: none;
+    color: #683845;
+    /* margin-bottom: -10px;
+    margin-left:2px; */
+}
+
+.social-media li {
+    position: relative;
+    top: 10px;
+    left: 0px;
+
+    display: inline-block;
+    
+    text-align: center;
+    vertical-align: middle;
+}
+
+.social-media li:first-child {
+    margin-left: 0;
+}
+
+.icons {
+    width: 25px;
+    height: 24px;
+    margin-left: 0px;
+    padding: 2px;
+
+    background: #683845;
+    color: rgb(167, 216, 101);
+    text-decoration: none;  
+    border-radius: 15%;
+}
+
+.icons:hover {
+    background: #dba5cf;
+}
+
+.photography { 
+    position: relative;
+    top: 5px;
+    left: 40px;
+
+    display: inline-block;
+    width: 450px;
+    height: 300px;
+
+    background: url("../assets/imgs/DSC_0157-1.png");   
+    background-position: left;
+    background-size: 450px auto;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.photography img {
+    margin: -50px;
+}
+
+.photography:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 0;
+    height: 0;
+
+    border-bottom: 500px solid rgba(167, 216, 101, 1);
+    border-right: 150px solid transparent;
+}
+
+.main-info-cv {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.main-info-cv.margin {
+    margin-top: 60px;
+}
+
+div>h2 {
+    margin-bottom: 10px;
+
+    font-family: 'Roboto Mono','Courier New',  monospace;
+    font-weight: bold;
+    font-size: 1.175rem;     
+}
+
+.summary {
+    margin-top: 20px;
+    padding: 20px;
+
+    background-color: rgba(96, 128, 3, 0.75);
+    border-radius: 8px;
+}
+
+.summary p {
+    font-size: 1.1rem;
+}
+
+.info-cv {
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.paragraph {
+    display: inline-block;
+    width: 500px;
+    height: 200px;
+    padding: 20px;  
+     
+    background-color: rgba(59, 103, 1, 0.55);
+    border-radius: 8px;
+}
+.paragraph p {
+    padding-bottom: 5px;
+}
+.paragraph ul li {    
+    margin-left: 20px;
+    padding-bottom: 2px;
+
+    list-style-type: circle;
+}
+
+.row-1 .paragraph:first-child {
+    position: relative;
+    left: 70px;
+
+    margin-top: 20px;
+}
+
+.row-1 .paragraph:nth-child(2) {
+    position: relative;
+    top: 0px;
+    left: -30px;
+
+    background-color: rgba(107, 159, 1, 0.75); 
+}
+
+.row-2 .paragraph:first-child {
+    position: relative;
+    top: -20px;
+    left: 20px;
+
+    background-color: rgba(150, 200, 36, 0.75);
+}
+
+.row-2 .paragraph:nth-child(2) {
+    position: relative;
+    top: 20px;
+    left: -10px;
+
+    background-color: rgba(147, 166, 62, 0.75);
+}
+
+.row-3 .paragraph:first-child {
+    position: relative;
+    left: 50px;
+
+    background-color: rgba(203, 217, 0, 0.75);
+}
+
+.row-3 .paragraph:nth-child(2) {
+    position: relative;
+    top: 20px;
+    left: 0px;
+
+    background-color: rgba(202, 212, 115, 0.75);
+}
+
+.row-4 .paragraph {    
+    position: relative;
+    left: 200px;
+    
+    margin-bottom: 80px;
+
+    background-color: rgba(158, 255, 0, 0.75);
+}
+.contact-footer{
+    width: 1024px;
+    height:50px;
+    margin: 0px auto 0 auto;
+    padding: 10px;
+
+    background-color: rgba(167, 216, 101, 0.85);
+    border-radius: 8px;  
+}
+.contact-footer ul,
+.contact-footer p {
+    display: inline-block;
+}
+
+.contact-footer ul {
+    width: 693px; 
+
+    text-align: right; 
+}
+
+.contact-footer p > i {
+    width: 20px;
+    height: 24px;   
+    margin-right: -10px;
+    padding: 2px; 
+
+    color:#683845;
+}
